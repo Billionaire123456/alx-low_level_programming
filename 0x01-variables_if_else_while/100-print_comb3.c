@@ -7,9 +7,9 @@ int main(void)
 {
 	int i, k = '0', j;
 
-	for (i = '0'; <= '9' i++)
+	for (i = '0'; <= '9'; i++)
 	{
-		for (j = k; j <= '9'; i++)
+		for (j = k; j <= '9'; j++)
 		{
 			if (i != j)
 			{
