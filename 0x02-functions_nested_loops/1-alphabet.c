@@ -1,21 +1,16 @@
-#include<stdio.h>
-
+#include "main.h"
 /**
- * print_alphabet - check codes
- *
- * Return: Always 0.
+ * print_alphabet - print alphabet in lowercase using only '_putchar'
+ * Return: 0
  */
-
 void print_alphabet(void)
 {
-	char alp = 'a';
+	char c = 'a';
 
-	while (alp <= 'z')
+	while (c <= 'z')
 	{
-		_putchar (alp);
-		alp++;
-
+		_putchar(c);
+		c++;
 	}
-	_putchar ('\n');
-
+	_putchar('\n');
 }
